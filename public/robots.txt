@@ -1,0 +1,7 @@
+# robots.txt for Egress Experts
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://egressexperts.ca/sitemap.xml
