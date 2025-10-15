@@ -1,11 +1,13 @@
 "use client";
 import React, { useEffect } from "react";
+import Link from "next/link";
 import { Container } from "./container";
 import { Heading } from "./heading";
 import { Subheading } from "./subheading";
 import { LoopIcon, UsersIcon, LockIcon } from "@/icons";
 import { Button } from "./ui/button";
 import { getCalApi } from "@calcom/embed-react";
+import { IconCircleCheckFilled } from "@tabler/icons-react";
 
 export const Pricing = () => {
   useEffect(() => {
